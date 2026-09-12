@@ -1,0 +1,42 @@
+{
+  "Recording.wav": {
+    "speech_start": 0.790,
+    "speech_end": 4.046
+  },
+  "Recording (10).wav": {
+    "speech_start": 0.938,
+    "speech_end": 6.304
+  },
+  "Recording (2).wav": {
+    "speech_start": 1.108,
+    "speech_end": 4.027
+  },
+  "Recording (3).wav": {
+    "speech_start": 1.128,
+    "speech_end": 3.770
+  },
+  "Recording (4).wav": {
+    "speech_start": 1.007,
+    "speech_end": 5.552
+  },
+  "Recording (5).wav": {
+    "speech_start": 0.643,
+    "speech_end": 4.730
+  },
+  "Recording (6).wav": {
+    "speech_start": 0.779,
+    "speech_end": 3.369
+  },
+  "Recording (7).wav": {
+    "speech_start": 1.048,
+    "speech_end": 6.310
+  },
+  "Recording (8).wav": {
+    "speech_start": 0.993,
+    "speech_end": 6.319
+  },
+  "Recording (9).wav": {
+    "speech_start": 0.511,
+    "speech_end": 6.950
+  }
+}

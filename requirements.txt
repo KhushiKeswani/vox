@@ -1,0 +1,7 @@
+sounddevice
+numpy
+torch
+openai-whisper
+google-genai
+piper-tts
+silero-vad
