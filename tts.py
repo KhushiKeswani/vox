@@ -47,6 +47,8 @@ class Tts:
         finally:
             self.piper_done.set()
     def start(self, speech_end_time):
+        self.piper_done.clear()        
+        self.first_audio_time = None
         self.speech_end_time = speech_end_time
         self.piper_thread = threading.Thread(target=self.piper_worker)
         self.piper_thread.start()

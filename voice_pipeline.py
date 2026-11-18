@@ -39,7 +39,8 @@ turn_count = 0
 
 while True:
     turn_start = time.perf_counter()
-
+    while not audio_capture.audio_queue.empty():  
+        audio_capture.audio_queue.get_nowait()
     try:
         with audio_capture.start():
             vad_total_time = 0
@@ -116,7 +117,7 @@ while True:
             print(f"Gemini error: {e}")
 
             voice.speak(sentence_buffer)
-
+            voice.finish()
             continue
 
         llm_latency = time.perf_counter() - llm_start
